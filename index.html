@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Slide Show</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slides-container">
+        <div class="slide" id="slide11">
+            <h2>💖 Tm & Urooz 💖</h2>
+            <button class="heart-btn" onclick="nextSlide()">Continue</button>
+        </div>
+
+        <div class="slide" id="slide12" style="display:none;">
+            <h2>Want to relive the magic? ✨</h2>
+            <button class="heart-btn" onclick="replay()">Replay</button>
+        </div>
+    </div>
+
+    <canvas id="puzzleCanvas" width="200" height="200"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>

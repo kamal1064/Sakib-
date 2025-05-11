@@ -1,0 +1,22 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #ffdae0;
+    color: #d6246b;
+    margin: 0;
+    padding: 0;
+}
+
+.heart-btn {
+    background-color: #ff69b4;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#puzzleCanvas {
+    border: 2px solid #d6246b;
+    margin: 20px;
+}
